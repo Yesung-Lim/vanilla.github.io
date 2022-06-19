@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Momentum</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <h2 class="ab" id="clock" style="top: 10px">00:00:00</h2>
+    <form class="hidden ab" id="login-form" style="top: 70px">
+      <input required maxlength="15" type="text" placeholder="Enter your ID.">
+      <input type="submit", value="Log In">
+    </form>
+    <h1 class="hidden ab" id="greeting" style="top: 70px"></h1>
+    <h3 class="ab" id="city" style="top: 150px"></h3>
+    <h3 class="ab" id="weather" style="top: 180px"></h3>
+    <form class="ab" id="todo-form" style="top: 250px;">
+      <input required type="text" placeholder="Write a To Do and Press Enter.">
+    </form>
+    <ul class="ab" id="todo-list" style="top: 280px; font-size: 25px;"></ul>
+    <div class="ab" id="quote" style="top: 1400px; font-size: 30px;">
+      <span></span>
+      <span></span>
+    </div>
+    <script src="JS/background.js"></script>
+    <script src="JS/quotes.js"></script>
+    <script src="JS/clock.js"></script>
+    <script src="JS/greetings.js"></script>
+    <script src="JS/todo.js"></script>
+    <script src="JS/weather.js"></script>
+  </body>
+</html>

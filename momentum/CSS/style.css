@@ -1,0 +1,12 @@
+.image {
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+.ab {
+    position: absolute;
+    font-weight: 2000;
+}
